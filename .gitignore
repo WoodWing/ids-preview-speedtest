@@ -1,0 +1,6 @@
+# File containing MacOSX custom attributes (per folder)
+.DS_Store
+
+# Locally generated reports
+reports/
+aws-reports/

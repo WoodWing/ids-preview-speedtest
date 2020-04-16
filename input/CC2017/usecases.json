@@ -1,0 +1,25 @@
+{
+  "UseCases": [
+    {
+      "Name": "Article with image on spread",
+      "Description": "1art, 1art = 2pag(A4), 5fra, 3cmp, 1img",
+      "ArticleId": 1273,
+      "LayoutId": 1272,
+      "EditionId": 1
+    },
+    {
+      "Name": "Article on one of 4 spreads",
+      "Description": "4art, 1art = 2pag(A4), 8fra, 3cmp, 2img",
+      "ArticleId": 1367,
+      "LayoutId": 1348,
+      "EditionId": 1
+    },
+    {
+      "Name": "Article on newspaper page",
+      "Description": "4art, 1art = 1/4pag(A2), 4fra, 3cmp, 1img",
+      "ArticleId": 1351,
+      "LayoutId": 1350,
+      "EditionId": 1
+    }
+  ]
+}
