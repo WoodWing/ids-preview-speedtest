@@ -14,8 +14,8 @@ file-store and requests for the preview again.
 ## Use cases
 For newspapers, magazines, books and brands, the use case can be rather different because of their
 documents differ in dimensions and structure. There may be some or many pages having some or many
-placed articles and/or images. Each article may consist of some or many components, frames and/or  
-style definitions. Also editions may be used. All this may have impact on the performance and so 
+placed articles and/or images. Each article may consist of some or many components, frames and/or
+style definitions. Also editions may be used. All this may have impact on the performance and so
 some example documents are included to cover some use cases.
 
 ## Iterations
@@ -28,7 +28,14 @@ The performance of all these steps are measured and recorded in a CSV file. The 
 opened e.g. in Excel or Numbers. How this CSV file is composed can be tuned with the options in 
 the `idsspeedtest/config/config.php` file. 
 
+## Requirements
+The test tool requires the following software:
+- Any Studio Server version that supports PHP 7.3 (or newer).
+- Any InDesign Server version supported by Studio Server.
+- Studio Server must be running on Linux or MacOSX. (Windows not supported.)
+
 ## Installation
+The test tool can be setup as follows:
 1. The `idsspeedtest` folder must be installed in the `server/wwtest` folder of Studio Server.
 1. Start InDesign client and login to Studio Server you want to use for performance testing.
 1. Open the layouts from the `idsspeedtest/input/<ids-version>/<use-case>` folders.
